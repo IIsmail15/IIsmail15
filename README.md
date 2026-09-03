@@ -42,7 +42,7 @@ I enjoy building reliable data foundations that make analytics and AI possible. 
 
 ### 📫 Let's Connect
 
-I'm open to roles in Data Engineering, Analytics Engineering, or AI-focused data work. If you're building something interesting, I'd love to hear about it.
+Open to roles in Data Engineering, Analytics Engineering, or AI. Always happy to chat about interesting problems
 
 ---
 
