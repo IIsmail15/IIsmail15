@@ -4,13 +4,9 @@
 
 I've spent 5+ years working across analytics, automation, and technical delivery, alongside an MSc in Data Science. I care about the full journey, from understanding the business problem to delivering reliable, usable data.
 
----
-
 ### 🔧 What I Work With
 
 Python, SQL, dbt, Airflow, PySpark, Spark, Azure, Docker, Git, PostgreSQL, Snowflake, MongoDB, Power BI, Streamlit, NLP, LLMs
-
----
 
 ### 🚀 Projects I've Built
 
@@ -32,17 +28,10 @@ LLM inference pipeline on Leonardo HPC, combining Mistral and RoBERTa with schem
 
 I enjoy building reliable data foundations that make analytics and AI possible. Messy data doesn't scare me. I like understanding the problem and turning it into something practical.
 
----
-
 ### 📚 I Also Write
 
 📖 [Medium](https://medium.com/@israa.ismail8i4)
 
----
-
 ### 📫 Let's Connect
 
 Open to roles in Data Engineering, Analytics Engineering, or AI. Always happy to chat about interesting problems
-
----
-
