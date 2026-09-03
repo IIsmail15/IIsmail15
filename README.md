@@ -8,7 +8,7 @@ I have an end-to-end understanding of data problems, from understanding business
 
 ### 🔧 What I Work With
 
-* **Languages:** Python, SQL, Bash
+* **Languages:** Python, SQL
 * **Data Engineering:** dbt, Apache Airflow, PySpark, Apache Spark, SQLAlchemy
 * **Data Modelling:** Kimball dimensional modelling, star schemas, OLTP/OLAP
 * **Data Quality:** Testing, validation, data lineage, documentation
