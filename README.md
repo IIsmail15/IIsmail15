@@ -1,49 +1,48 @@
 # Hi, I'm Israa 👋
 
-### Data Engineer | Python • SQL • dbt • PySpark • Airflow
+### Data Engineer · Python · SQL · dbt · PySpark · Airflow
 
-I’m a Data Engineer with 5+ years of commercial experience across analytics, automation, and technical delivery, alongside an MSc in Data Science.
+I've spent 5+ years working across analytics, automation, and technical delivery, alongside an MSc in Data Science. I care about the full journey, from understanding the business problem to delivering reliable, usable data.
 
-I have an end-to-end understanding of data problems, from understanding business requirements and working with raw data through to ingestion, transformation, modelling, data quality, and delivering data for analytics and AI use cases.
+---
 
 ### 🔧 What I Work With
 
-* **Languages:** Python, SQL
-* **Data Engineering:** dbt, Apache Airflow, PySpark, Apache Spark, SQLAlchemy
-* **Data Modelling:** Kimball dimensional modelling, star schemas, OLTP/OLAP
-* **Data Quality:** Testing, validation, data lineage, documentation
-* **Cloud & Tools:** Azure, Docker, Git, GitHub Actions
-* **Databases:** PostgreSQL, Snowflake, MongoDB
-* **Analytics & AI:** Power BI, Streamlit, NLP, LLMs, Machine Learning
+Python, SQL, dbt, Airflow, PySpark, Spark, Azure, Docker, Git, PostgreSQL, Snowflake, MongoDB, Power BI, Streamlit, NLP, LLMs
 
-### 🚀 Featured Projects
+---
 
-**[Car Rental Data Platform](https://github.com/IIsmail12/car-rental-data-platform)**
-End-to-end data engineering project using PostgreSQL and dbt to build a dimensional data warehouse, including data modelling, automated testing, documentation, lineage, and CI/CD.
+### 🚀 Projects I've Built
 
-**[Hospital Readmission ETL Pipeline](https://github.com/IIsmail12/spark-hospital-readmission-etl)**
-PySpark ETL pipeline focused on cleaning, transforming, and analysing healthcare data, with Parquet outputs and Docker-based development.
+[**Car Rental Data Platform**](https://github.com/IIsmail12/car-rental-data-platform)
+End-to-end data warehouse with PostgreSQL and dbt, including automated testing, documentation, lineage, and CI/CD.
 
-**[Industrial Defect Analysis](https://github.com/IIsmail12/ML-Project)**
-Data analysis project using real manufacturing data, combining PLC sensor data with defect inspections through time-based range joins and clustering.
+[**Hospital Readmission ETL**](https://github.com/IIsmail12/spark-hospital-readmission-etl)
+PySpark pipeline for healthcare data, covering cleaning, transformation, and analysis, with Docker for a reproducible development environment.
 
-**[LLaMA of Wall Street](https://github.com/IIsmail12/cineca-project/tree/main)**
-LLM and NLP project involving inference pipelines on the Leonardo HPC environment, combining Mistral and RoBERTa with schema validation and parallel processing.
+[**Industrial Defect Analysis**](https://github.com/IIsmail12/ML-Project)
+Combined PLC sensor data with defect records using time-based joins and clustering on real manufacturing data.
 
-### 🧠 What I'm Interested In
+[**LLaMA of Wall Street**](https://github.com/IIsmail12/cineca-project/tree/main)
+LLM inference pipeline on Leonardo HPC, combining Mistral and RoBERTa with schema validation and parallel processing.
 
-I’m particularly interested in building reliable data foundations that enable:
+---
 
-**Raw Data → Reliable Data → Analytics → AI**
+### 🧠 What Drives Me
 
-I enjoy working with complex or messy data, understanding the problem behind it, and turning it into practical, testable solutions.
+I enjoy building reliable data foundations that make analytics and AI possible. Messy data doesn't scare me. I like understanding the problem and turning it into something practical.
 
-### 📚 Writing & Learning
+---
 
-I also write about Data Engineering, including building pipelines, working with dbt, and learning modern data technologies through practical projects.
+### 📚 I Also Write
 
-📖 **[Medium](https://medium.com/@israa.ismail8i4)**
+📖 [Medium](https://medium.com/@israa.ismail8i4)
+
+---
 
 ### 📫 Let's Connect
 
-I’m open to opportunities in Data Engineering, Data Platforms, Analytics Engineering, and roles where data engineering intersects with AI.
+I'm open to roles in Data Engineering, Analytics Engineering, or AI-focused data work. If you're building something interesting, I'd love to hear about it.
+
+---
+
