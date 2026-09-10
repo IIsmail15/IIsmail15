@@ -8,13 +8,7 @@ I've spent 5+ years working across analytics, automation, and technical delivery
 
 Python, SQL, dbt, Airflow, PySpark, Spark, Azure, Docker, Git, PostgreSQL, Snowflake, MongoDB, Power BI, Streamlit, NLP, LLMs
 
-### 🚀 Projects I've Built
-
-[**Car Rental Data Platform**](https://github.com/IIsmail12/car-rental-data-platform)
-End-to-end data warehouse with PostgreSQL and dbt, including automated testing, documentation, lineage, and CI/CD.
-
-[**Hospital Readmission ETL**](https://github.com/IIsmail12/spark-hospital-readmission-etl)
-PySpark pipeline for healthcare data, covering cleaning, transformation, and analysis, with Docker for a reproducible development environment.
+### 🚀 Projects I've Built in my other repo.
 
 [**Industrial Defect Analysis**](https://github.com/IIsmail12/ML-Project)
 Combined PLC sensor data with defect records using time-based joins and clustering on real manufacturing data.
