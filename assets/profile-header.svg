@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Israa Ismail — Data Engineer</title>
+<desc id="desc">Building reliable data foundations for analytics and AI.</desc>
+<rect width="1200" height="380" fill="#111619"/>
+<path d="M800 0V380M1000 0V380M0 300H1200" stroke="#273236" stroke-width="1"/>
+<text x="58" y="62" fill="#a7b6b4" font-family="monospace" font-size="16" letter-spacing="3">DATA ENGINEERING / ANALYTICS / AI</text>
+<text x="54" y="150" fill="#f3f1e9" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">ISRAA ISMAIL</text>
+<text x="58" y="211" fill="#d6dfda" font-family="Arial, Helvetica, sans-serif" font-size="27">Reliable data foundations.</text>
+<text x="58" y="252" fill="#d6dfda" font-family="Arial, Helvetica, sans-serif" font-size="27">Useful analytics. Practical AI.</text>
+<text x="58" y="346" fill="#a7b6b4" font-family="monospace" font-size="16">PYTHON · SQL · DBT · AIRFLOW · PYSPARK</text>
+<g fill="#111619" stroke="#81968e" stroke-width="2">
+<rect x="910" y="81" width="192" height="48" rx="4"/>
+<rect x="910" y="159" width="192" height="48" rx="4"/>
+<rect x="910" y="237" width="192" height="48" rx="4"/>
+<path d="M1006 129V159M1006 207V237"/>
+</g>
+<g fill="#d6dfda" font-family="monospace" font-size="15" text-anchor="middle">
+<text x="1006" y="111">SOURCE</text><text x="1006" y="189">TRANSFORM</text><text x="1006" y="267">DATA PRODUCT</text>
+</g></svg>
