@@ -17,12 +17,14 @@ I turn messy operational data into reliable, usable data products. My experience
 ## Selected work
 
 ### 01 / Car Rental Data Platform
-**From simulated transactions to an analytics-ready warehouse.**
+**An end-to-end data platform from simulated transactions to a tested analytics warehouse.**
 
-An end-to-end platform modelling a UK car rental business. Python generates source data, PostgreSQL holds the operational tables, and dbt builds a star schema for analysing revenue, fleet usage and rental activity.
+A portfolio data engineering platform modelling a UK car rental business. Python and Faker generate transactional data into PostgreSQL, while dbt transforms eight source tables into staging models, four dimensions and a rental fact table. The project includes Docker-based local development, pytest and dbt validation, GitHub Actions CI/deployment workflows, and Terraform definitions for an Azure data platform.
 
-**Architecture:** Python / Faker → PostgreSQL staging → dbt → dimensional warehouse  
-**Stack:** Python · SQLAlchemy · PostgreSQL · dbt · Neon
+**Architecture:** Python + Faker → PostgreSQL staging → dbt → dimensional warehouse  
+**Engineering:** Docker · pytest · dbt tests · GitHub Actions · Terraform  
+**Cloud definitions:** ADLS Gen2 · Azure PostgreSQL · Data Factory · Databricks  
+**Core stack:** Python · SQLAlchemy · PostgreSQL · dbt
 
 [Explore the platform →](https://github.com/IIsmail15/car-rental-data-platform)
 
@@ -79,7 +81,8 @@ A daily Airflow DAG that extracts cryptocurrency market data from CoinGecko, tra
 | :--- | :--- |
 | Data engineering | Python, SQL, dbt, Airflow, PySpark |
 | Databases & platforms | PostgreSQL, Snowflake, MongoDB, Azure |
-| Delivery | Docker, Git, GitHub |
+| Cloud & infrastructure | Terraform, ADLS Gen2, Data Factory, Databricks |
+| Delivery & quality | Docker, Git, GitHub Actions, pytest |
 | Analytics & AI | Power BI, Streamlit, NLP, LLMs |
 
 ## Current focus
@@ -87,7 +90,7 @@ A daily Airflow DAG that extracts cryptocurrency market data from CoinGecko, tra
 - Reliable pipelines and clear dimensional models.
 - Analytics engineering that connects business questions to usable data.
 - Practical LLM applications with structured outputs and validation.
-- Cloud and distributed processing.
+- Cloud infrastructure, CI/CD and distributed processing.
 
 ## Writing & connection
 
