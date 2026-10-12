@@ -1,100 +1,218 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Israa Ismail — Data Engineer. Building reliable data foundations for analytics and AI." />
+  <img
+    src="./assets/profile-header.svg"
+    width="100%"
+    alt="Israa Ismail — Data Engineer. Building reliable data foundations for analytics and AI."
+  />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/israa-ismail-ii">LinkedIn</a> ·
-  <a href="https://medium.com/@israa.ismail8i4">Writing</a> ·
+  <a href="https://medium.com/@israa.ismail8i4">Technical Writing</a> ·
   <a href="https://github.com/IIsmail15?tab=repositories">Repositories</a>
 </p>
 
-# Building data systems that make analytics and AI possible.
+# Building reliable data systems from source to insight.
 
-**Data Engineer · Analytics Engineering · AI**
+**Data Engineering · Analytics Engineering · Cloud Data Platforms**
 
-I turn messy operational data into reliable, usable data products. My experience spans 5+ years across analytics, automation and technical delivery, alongside an MSc in Data Science. I start with the business problem and work through ingestion, transformation and delivery.
+I build data systems that turn messy operational data into reliable, tested and usable data products.
 
-## Selected work
+My work spans data pipelines, dimensional modelling, orchestration, data quality, cloud infrastructure and analytics.
+
+I’m particularly interested in the engineering foundations that make analytics and AI useful:
+
+**clean data · reliable pipelines · clear models · reproducible infrastructure**
+
+---
+
+## 🧰 Core technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,postgres,docker,git,github,azure,terraform" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure%20Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ADLS%20Gen2-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge" />
+</p>
+
+---
+
+## Featured projects
 
 ### 01 / Car Rental Data Platform
-**An end-to-end data platform from simulated transactions to a tested analytics warehouse.**
 
-A portfolio data engineering platform modelling a UK car rental business. Python and Faker generate transactional data into PostgreSQL, while dbt transforms eight source tables into staging models, four dimensions and a rental fact table. The project includes Docker-based local development, pytest and dbt validation, GitHub Actions CI/deployment workflows, and Terraform definitions for an Azure data platform.
+**End-to-end Azure data platform from transactional data to a tested analytics warehouse.**
 
-**Architecture:** Python + Faker → PostgreSQL staging → dbt → dimensional warehouse  
-**Engineering:** Docker · pytest · dbt tests · GitHub Actions · Terraform  
-**Cloud definitions:** ADLS Gen2 · Azure PostgreSQL · Data Factory · Databricks  
-**Core stack:** Python · SQLAlchemy · PostgreSQL · dbt
+A cloud data engineering project simulating a UK car rental business.
+
+Python generates transactional data in Azure PostgreSQL. Azure Data Factory orchestrates ingestion into ADLS Gen2, Databricks validates and curates the data into Delta tables, and dbt builds a dimensional analytics warehouse in Databricks SQL.
+
+The complete workflow has been successfully orchestrated through ADF and Databricks, with **13 dbt models and 12 data tests passing**.
+
+**Architecture**
+
+`Python/Faker → Azure PostgreSQL → ADF → ADLS Gen2 → Databricks → dbt → Analytics Warehouse`
+
+**Engineering**
+
+`Terraform · PySpark · Delta Lake · Unity Catalog · pytest · dbt tests · GitHub Actions · Docker`
 
 [Explore the platform →](https://github.com/IIsmail15/car-rental-data-platform)
 
 ---
 
-### 02 / Industrial Defect Analysis
-**Connecting production conditions with manufacturing quality.**
+### 02 / InsightFlow AI
 
-Combines PLC sensor measurements with metal coil defect records to investigate which process variables are associated with defects. The work spans data alignment, preprocessing, feature exploration and machine learning.
+**Building the data foundation for a future plain-English business analytics tool.**
 
-**Workflow:** Sensor data + defect records → alignment → features → modelling  
-**Stack:** Python · pandas · scikit-learn · Jupyter
+InsightFlow explores how business users could eventually investigate company data using natural language.
 
-[Explore the analysis →](https://github.com/IIsmail12/ML-Project)
+The first milestone focuses on the engineering foundation: PostgreSQL, reproducible synthetic business data, five precisely defined SQL metrics, event-based analytical scenarios and automated validation.
+
+**Current architecture**
+
+`Synthetic business data → PostgreSQL → tested SQL metrics → future natural-language analytics`
+
+**Stack**
+
+`Python · SQL · PostgreSQL · Docker · Data Validation · Testing`
+
+[Explore InsightFlow →](https://github.com/IIsmail15/InsightFlow-AI)
 
 ---
 
 ### 03 / Hospital Readmission ETL
-**Turning raw healthcare data into structured analytical outputs.**
 
-A PySpark pipeline that cleans hospital admission data, transforms demographic and diagnosis fields, and exports Parquet datasets for exploring 30-day readmission patterns.
+**Processing 100k+ healthcare encounters with PySpark.**
 
-**Workflow:** Raw CSV → PySpark transformations → Parquet → readmission analysis  
-**Stack:** Python · PySpark · Docker · JupyterLab
+A Spark-based ETL and analysis workflow using real hospital encounter data.
+
+The project cleans and transforms demographic, diagnosis and medication fields, creates analytical features, uses Spark SQL for summary analysis, and exports curated datasets to Parquet.
+
+**Workflow**
+
+`Raw CSV → PySpark transformations → Spark SQL → Parquet`
+
+**Stack**
+
+`Python · PySpark · Spark SQL · Docker · Parquet · Jupyter`
 
 [Explore the pipeline →](https://github.com/IIsmail15/spark-hospital-readmission-etl)
 
 ---
 
 ### 04 / LLaMA of Wall Street
-**Structured company extraction from noisy financial discussion.**
 
-A team project on Leonardo HPC that turns Reddit comments into daily stock sentiment signals. **My contribution focused on ticker extraction:** Mistral inference, Pydantic structured output, parallel requests and a keyword fallback. The wider pipeline combines extraction with RoBERTa sentiment scoring and downstream visualisation.
+**Structured financial NLP on CINECA's Leonardo HPC.**
 
-**Architecture:** Reddit comments → ticker extraction → sentiment scoring → daily signals  
-**Stack:** Mistral · vLLM · Pydantic · Python · SLURM
+A team NLP project processing financial discussion at scale on Leonardo HPC.
+
+My contribution focused on ticker extraction using Mistral inference, Pydantic structured outputs, parallel requests and fallback logic. The wider workflow combined extraction with RoBERTa sentiment analysis.
+
+**Architecture**
+
+`Financial discussion → ticker extraction → sentiment analysis → signals`
+
+**Stack**
+
+`Python · Mistral · RoBERTa · vLLM · Pydantic · HPC · SLURM`
 
 [Explore the team project →](https://github.com/IIsmail12/cineca-project)
+
+---
 
 <details>
 <summary><strong>More work / Crypto ETL with Airflow</strong></summary>
 
-A daily Airflow DAG that extracts cryptocurrency market data from CoinGecko, transforms JSON into tabular data, and handles loading in a Docker Compose environment.
+### Crypto ETL with Apache Airflow
 
-**Stack:** Airflow · Python · CoinGecko API · PostgreSQL · Docker
+A daily Airflow workflow that extracts cryptocurrency market data from the CoinGecko API, transforms it with pandas and loads the latest snapshot into PostgreSQL.
 
-[Explore the repository →](https://github.com/IIsmail15/crypto_etl_dag)
+**Workflow**
+
+`CoinGecko API → Airflow → pandas → PostgreSQL`
+
+**Stack**
+
+`Apache Airflow · Python · pandas · SQLAlchemy · PostgreSQL · Docker`
+
+[Explore the pipeline →](https://github.com/IIsmail15/crypto_etl_dag)
 
 </details>
 
+---
+
 ## Technical toolkit
 
-| Area | Tools |
-| :--- | :--- |
-| Data engineering | Python, SQL, dbt, Airflow, PySpark |
-| Databases & platforms | PostgreSQL, Snowflake, MongoDB, Azure |
-| Cloud & infrastructure | Terraform, ADLS Gen2, Data Factory, Databricks |
-| Delivery & quality | Docker, Git, GitHub Actions, pytest |
-| Analytics & AI | Power BI, Streamlit, NLP, LLMs |
+| Area | Technologies |
+|---|---|
+| **Languages** | Python, SQL, Bash |
+| **Data Engineering** | dbt, PySpark, Apache Spark, Airflow, ETL/ELT, SQLAlchemy, pandas |
+| **Databases & Warehousing** | PostgreSQL, Databricks SQL, Snowflake, MongoDB |
+| **Azure & Cloud** | Azure Data Factory, ADLS Gen2, Azure Databricks, Azure PostgreSQL, Synapse Analytics |
+| **Data Lake & Storage** | Delta Lake, Unity Catalog, Parquet |
+| **Infrastructure as Code** | Terraform, AzureRM |
+| **Testing & Data Quality** | pytest, dbt tests, validation checks, schema and relationship testing |
+| **DevOps & Delivery** | Git, GitHub Actions, Docker, CI/CD, Azure DevOps |
+| **Streaming & APIs** | Kafka, REST APIs, FastAPI |
+| **Analytics** | Power BI, Jupyter, Streamlit |
+| **AI / NLP** | scikit-learn, Mistral, RoBERTa, vLLM, Pydantic |
+| **HPC** | CINECA Leonardo, SLURM |
 
-## Current focus
+---
 
-- Reliable pipelines and clear dimensional models.
-- Analytics engineering that connects business questions to usable data.
-- Practical LLM applications with structured outputs and validation.
-- Cloud infrastructure, CI/CD and distributed processing.
+## How I approach data engineering
 
-## Writing & connection
+I tend to think about systems in this order:
 
-I write about the work behind useful data systems on [Medium](https://medium.com/@israa.ismail8i4).
+`Business problem → source data → ingestion → transformation → quality → modelling → delivery`
 
-**Open to opportunities in Data Engineering, Analytics Engineering and AI.**  
-[Connect with me on LinkedIn →](https://www.linkedin.com/in/israa-ismail-ii)
+A pipeline is not finished just because data moved from A to B.
+
+I care about whether it is:
+
+- understandable
+- testable
+- reproducible
+- documented
+- useful to the people consuming it
+
+---
+
+## Technical writing
+
+I write about the engineering decisions behind my projects on Medium, including data warehousing, dbt, orchestration and modern data architecture.
+
+[Read my writing →](https://medium.com/@israa.ismail8i4)
+
+---
+
+## Currently exploring
+
+- Reliable cloud data platforms
+- Analytics engineering and dimensional modelling
+- Data quality and observability
+- Infrastructure as Code
+- Distributed data processing
+- Data foundations for practical AI systems
+
+---
+
+## Let's connect
+
+I’m currently completing an **MSc in Data Science & Business Analytics** and am open to opportunities in **Data Engineering and Analytics Engineering**.
+
+[LinkedIn](https://www.linkedin.com/in/israa-ismail-ii) ·
+[Medium](https://medium.com/@israa.ismail8i4)
